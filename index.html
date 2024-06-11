@@ -12,13 +12,20 @@
 </head>
 
 <body>
-    <div class="container text-center d-flec">
-        <img class="w-25" src="./image.webp" alt="BMW Logo">
-        <div>BMW <small class="text-muted">Diamond Client</small></h1>
-        </div>
+    <div class="w-50">
 
+        <!-- logo -->
+        <div class="d-flex flex-row">
+            <div class="me-2">
+                <img class="m-0" width="50px" src="./image.webp" alt="BMW Logo">
+            </div>
+            <div class="d-dlex">
+                <div class="font-weight-bold"><strong>BMW</strong></div>
+                <div class="text-primary">Diamond Client</div>
+            </div>
+        </div>
+        <!-- stats -->
         <div class="container mt-4">
-            <button type="button" class="btn btn-link">Link</button>
             <div class="row text-center">
                 <div class="col-sm-4">
                     <div class="card border-0">
@@ -41,6 +48,7 @@
             </div>
         </div>
 
+        <!-- profile -->
         <div class="container mt-5">
             <h2 class="text-primary">Profile</h2>
             <table class="table mt-3">
@@ -75,19 +83,64 @@
                 </tbody>
             </table>
 
-            <h2 class="text-primary mt-5">Timeline</h2>
-            <div class="timeline mt-3">
-                <div class="timeline-event">
-                    <strong>Start Date</strong>: 13-Apr-2024
-                </div>
-                <div class="timeline-event">
-                    <strong>Renewal</strong>: 13-Apr-2024
-                </div>
-                <div class="timeline-event">
-                    <strong>End Date</strong>: 13-Apr-2024
+        </div>
+
+        <!-- time line -->
+
+        <h2 class="text-primary mt-5">Timeline</h2>
+        <div class="timeline mt-3">
+            <div class="container mt-5 mb-5">
+                <div class="row">
+                    <div class="col">
+                        <div class="timeline-steps aos-init aos-animate" data-aos="fade-up">
+                            <div class="timeline-step">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                    data-placement="top" title="" data-original-title="2003">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">Start Date</p>
+                                    <p>13-Apr-2024</p>
+
+                                </div>
+                            </div>
+                            <div class="timeline-step">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                    data-placement="top" title="" data-original-title="2004">
+                                    <div class="inner-circle"></div>
+
+                                </div>
+                            </div>
+                            <div class="timeline-step">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                    data-placement="top" title="" data-original-title="2005">
+                                    <div class="inner-circle"></div>
+
+                                </div>
+                            </div>
+                            <div class="timeline-step">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                    data-placement="top" title="" data-original-title="2010">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">Renewal</p>
+                                    <p>13-Apr-2024</p>
+                                </div>
+                            </div>
+                            <div class="timeline-step mb-0">
+                                <div class="timeline-content" data-toggle="popover" data-trigger="hover"
+                                    data-placement="top" title="" data-original-title="2020">
+                                    <div class="inner-circle"></div>
+                                    <p class="h6 mt-3 mb-1">End Date</p>
+                                    <p>13-Apr-2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+
+
+
+    </div>
 </body>
 
 </html>
